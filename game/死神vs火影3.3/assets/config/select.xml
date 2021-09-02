@@ -1,0 +1,186 @@
+<select_config>
+
+	<stage_setting>
+		<layout x="0" y="0" width="800" height="600" left="15" right="15" top="100" bottom="10"/>
+	</stage_setting>
+	
+	<char_list>
+	
+		<row>
+			<item>ichigo</item>
+			<item offset="-10,0">rukia</item>
+			<item offset="-20,0">renji</item>
+			<item offset="-5,20">ichigo_wanjie</item>
+			<item offset="-15,20">rukia_shijie</item>
+			<item offset="15,20">sasuke_zy</item>
+			<item offset="5,20">naruto_yw</item>
+			<item offset="20,0">sasuke</item>
+			<item offset="10,0">sakura</item>
+			<item>naruto</item>
+		</row>
+		
+		<row>
+			<item>kenpachi</item>
+			<item offset="-10,0">ikkaku</item>
+			<item offset="-20,0">yin</item>
+			<item offset="-5,20">chad</item>
+			<item offset="-15,20">uryuu</item>
+			<item offset="15,20">didala</item>
+			<item offset="5,20">itachi</item>
+			<item offset="20,0">juggo</item>
+			<item offset="10,0">karin</item>
+			<item>sasuke_xz</item>
+		</row>
+		
+		<row>
+			<item>toushirou</item>
+			<item offset="-10,0">byakuya</item>
+			<item offset="-20,0">mayuri</item>
+			<item offset="-5,20">toushirou_wanjie</item>
+			<item offset="-15,20">byakuya_wanjie</item>
+			<item offset="15,20">temari</item>
+			<item offset="5,20">gaara</item>
+			<item offset="20,0">neji</item>
+			<item offset="10,0">lee</item>
+			<item>kakashi</item>
+		</row>
+		
+		<row>
+			<item>ichigo_zero</item>
+			<item offset="-10,0">orihime</item>
+			<item offset="-20,0">soifon</item>
+			<item offset="-5,20">ichigo_neixu</item>
+			<item offset="-15,20">ichigo_xuhua_half</item>
+			<item offset="15,20">konan</item>
+			<item offset="5,20">pain</item>
+			<item offset="20,0">killerbee</item>
+			<item offset="10,0">orochimaru</item>
+			<item>jiraiya</item>
+		</row>
+		
+		<row>
+			<item>grimmjow</item>
+			<item offset="-10,0">ulquiorra</item>
+			<item offset="-20,0"></item>
+			<item offset="-5,20"></item>
+			<item offset="-15,20"></item>
+			<item offset="15,20"></item>
+			<item offset="5,20"></item>
+			<item offset="20,0">kakashi_sw</item>
+			<item offset="10,0">obito</item>
+			<item>naruto_xianren</item>
+		</row>
+		
+		<row offset="40,-40">
+			<item></item>
+			<item></item>
+			<item></item>
+			<item offset="10,0">aizen</item>
+			<item>kenshin</item>
+			<item offset="-10,0">madara</item>
+			<item></item>
+			<item></item>
+			<item></item>
+			<item></item>
+		</row>
+		
+		<row offset="40,-40">
+			<item></item>
+			<item></item>
+			<item></item>
+			<item offset="10,0">random_bleach</item>
+			<item>random</item>
+			<item offset="-10,0">random_naruto</item>
+			<item></item>
+			<item></item>
+			<item></item>
+			<item></item>
+		</row>
+		
+	</char_list>
+	
+	<!-- 辅助选择界面 -->
+	
+	<assist_list>
+	
+		<row>
+			<item>kon</item>
+			<item offset="-10,0">orihime</item>
+			<item offset="-20,0">yoruichi</item>
+			<item offset="-5,20">uryuu</item>
+			<item offset="-15,20">kenpachi</item>
+			<item offset="15,20">itachi</item>
+			<item offset="5,20">tenten</item>
+			<item offset="20,0">ino</item>
+			<item offset="10,0">temari</item>
+			<item>garra</item>
+		</row>
+		
+		<row>
+			<item>ichigo_white2</item>
+			<item offset="-10,0">yachiru</item>
+			<item offset="-20,0">stake</item>
+			<item offset="-5,20">halibel</item>
+			<item offset="-15,20">grimmjow</item>
+			<item offset="15,20">jiraiya</item>
+			<item offset="5,20">minato</item>
+			<item offset="20,0">tsuchikage</item>
+			<item offset="10,0">tsunate</item>
+			<item>hinata</item>
+		</row>
+		
+		<row>
+			<item>soifon</item>
+			<item offset="-10,0">nemu</item>
+			<item offset="-20,0">ichigo_padipata</item>
+			<item offset="-5,20">yin</item>
+			<item offset="-15,20">rangiku</item>
+			<item offset="15,20">obito</item>
+			<item offset="5,20">shikamaru</item>
+			<item offset="20,0">kimimaro</item>
+			<item offset="10,0">sai</item>
+			<item>suigetsu</item>
+		</row>
+		
+		<row>
+			<item>byakuya</item>
+			<item offset="-10,0"></item>
+			<item offset="-20,0"></item>
+			<item offset="-5,20"></item>
+			<item offset="-15,20"></item>
+			<item offset="15,20"></item>
+			<item offset="5,20"></item>
+			<item offset="20,0"></item>
+			<item offset="10,0"></item>
+			<item></item>
+		</row>
+		
+		<row offset="40,-40">
+			<item></item>
+			<item></item>
+			<item></item>
+			<item offset="10,0">yamamoto</item>
+			<item>shishio</item>
+			<item offset="-10,0">madara</item>
+			<item></item>
+			<item></item>
+			<item></item>
+			<item></item>
+		</row>
+		
+		<row offset="40,-40">
+			<item></item>
+			<item></item>
+			<item></item>
+			<item offset="10,0">random_bleach</item>
+			<item>random</item>
+			<item offset="-10,0">random_naruto</item>
+			<item></item>
+			<item></item>
+			<item></item>
+			<item></item>
+		</row>
+		
+	</assist_list>
+
+</select_config>
