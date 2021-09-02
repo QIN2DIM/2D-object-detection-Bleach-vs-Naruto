@@ -11,7 +11,7 @@
 
 ## Background
 
-NIIT暑期实习大作业。
+NIIT暑期实习大作业
 
 ## Install
 
@@ -21,12 +21,16 @@ NIIT暑期实习大作业。
 
 ## Usage
 
-本项目目录结构如下所示。Clone项目后，请标记`database`、`game`目录为“排除”，`network`为“运行根”。以`./network`为运行根启动`Terminal`，执行`detect.py`进行预测，执行结果存放在`./network/runs/detect/exp[number]`中
+Clone项目后，请标记`database`、`game`目录为“排除”，`network`为“运行根”。
+
+以`./network`为运行根启动`Terminal`，执行`detect.py`进行预测：
 
 ```shell
 # /2D-target-detection-Bleach-vs-Naruto/network>
 python detect.py
 ```
+
+执行结果存放在`./network/runs/detect/exp[number]`中。
 
 ## Project Tree
 
