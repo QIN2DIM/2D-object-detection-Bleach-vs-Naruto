@@ -199,13 +199,13 @@ def run(weights='yolov5s.pt',  # model.pt path(s)
 
 def parse_opt():
     # 欠优化序列模型的相对路径
-    PATH_BVN_BASE_WEIGHT = './runs/train/bvn-base/weights/best.pt'
+    path_bvn_base_weight = './runs/train/bvn-base.best.pt'
 
     parser = argparse.ArgumentParser()
     # 预测调用的模型
-    parser.add_argument('--weights', nargs='+', type=str, default=PATH_BVN_BASE_WEIGHT, help='model.pt path(s)')
+    parser.add_argument('--weights', nargs='+', type=str, default=path_bvn_base_weight, help='model.pt path(s)')
     # 需要预测的源[指定的视频or图片/指定的源所在的目录/指定的视频链接/视频流接口]
-    # parser.add_argument('--source', type=str, default='data/video/goL2CjykGfzL1ejLrN7_278103302820___hd.mp4', help='file/dir/URL/glob, 0 for webcam')
+    # parser.add_argument('--source', type=str, default='data/video', help='file/dir/URL/glob, 0 for webcam')
     parser.add_argument('--source', type=str, default='data/images', help='file/dir/URL/glob, 0 for webcam')
     # network size 与图像分辨率无关，但建议与模型的size一致（640 or 1280）
     parser.add_argument('--imgsz', '--img', '--img-size', type=int, default=640, help='inference size (pixels)')

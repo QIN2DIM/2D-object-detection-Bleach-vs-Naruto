@@ -3,6 +3,7 @@
 import contextlib
 import glob
 import logging
+import math
 import os
 import platform
 import random
@@ -16,7 +17,6 @@ from pathlib import Path
 from subprocess import check_output
 
 import cv2
-import math
 import numpy as np
 import pandas as pd
 import pkg_resources as pkg
@@ -193,6 +193,7 @@ def check_requirements(requirements='requirements.txt', exclude=()):
         s = f"{prefix} {n} package{'s' * (n > 1)} updated per {source}\n" \
             f"{prefix} ⚠️ {colorstr('bold', 'Restart runtime or rerun command for updates to take effect')}\n"
         print(emojis(s))
+
 
 
 def check_img_size(img_size, s=32, floor=0):

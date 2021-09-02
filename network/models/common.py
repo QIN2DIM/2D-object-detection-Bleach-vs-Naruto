@@ -1,11 +1,11 @@
 # YOLOv5 common modules
 
 import logging
+import math
 import warnings
 from copy import copy
 from pathlib import Path
 
-import math
 import numpy as np
 import pandas as pd
 import requests

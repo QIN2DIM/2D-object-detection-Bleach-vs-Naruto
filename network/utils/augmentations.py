@@ -1,10 +1,10 @@
 # YOLOv5 image augmentation functions
 
 import logging
+import math
 import random
 
 import cv2
-import math
 import numpy as np
 
 from utils.general import colorstr, segment2box, resample_segments, check_version
