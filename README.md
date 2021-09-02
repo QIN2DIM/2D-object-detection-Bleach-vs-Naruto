@@ -1,4 +1,4 @@
-# 2D-target-detection-Bleach-vs-Naruto
+# 2D-object-detection-Bleach-vs-Naruto
 《死神VS火影》| 试用YOLOv5完整体验自建数据集，训练模型，参数调优，最后实现2D目标检测的全过程。
 
 ## DEMO
@@ -49,7 +49,7 @@ Clone项目后，请标记`database`、`game`目录为“排除”，`network`�
 以`./network`为运行根启动`Terminal`，执行`detect.py`进行预测：
 
 ```shell
-# /2D-target-detection-Bleach-vs-Naruto/network>
+# /2D-object-detection-Bleach-vs-Naruto/network>
 python detect.py
 ```
 
@@ -60,7 +60,7 @@ python detect.py
 如下所示为本项目的工程目录。
 
 ```python
-2D-target-detection-Bleach-vs-Naruto
+2D-object-detection-Bleach-vs-Naruto
  ├── database
  │   ├── captures
  │   ├── images
