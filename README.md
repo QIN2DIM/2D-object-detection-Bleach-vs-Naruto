@@ -15,9 +15,18 @@ NIIT暑期实习大作业
 
 ## Install
 
+### Download Project
+
 直接Clone项目即可，推荐使用Pycharm启动工程。
 
 ![image-20210902100143483](https://i.loli.net/2021/09/02/4wczdFmJ61BUpyb.png)
+
+### Download Game [optional]
+
+获取《死神vs火影 3.3》FLASH游戏本体
+
+链接：https://pan.baidu.com/s/1gjYlIzwjsYKDt8-cq1AqhA 
+提取码：5dyt 
 
 ## Usage
 

@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 ./database/captures
 .idea
+./game
+./network/runs/*.pt
