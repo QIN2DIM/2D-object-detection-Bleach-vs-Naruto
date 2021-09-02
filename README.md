@@ -28,6 +28,13 @@ NIIT暑期实习大作业
 链接：https://pan.baidu.com/s/1gjYlIzwjsYKDt8-cq1AqhA 
 提取码：5dyt 
 
+### Download BVN-Network [optional]
+
+获取欠优化的序列模型，可直接用于预测任务
+
+链接：https://pan.baidu.com/s/12Re3w9V56z-J-0LGCPK_IQ 
+提取码：digz 
+
 ## Usage
 
 Clone项目后，请标记`database`、`game`目录为“排除”，`network`为“运行根”。
