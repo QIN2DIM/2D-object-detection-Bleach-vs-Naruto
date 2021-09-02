@@ -35,6 +35,13 @@ NIIT暑期实习大作业
 链接：https://pan.baidu.com/s/12Re3w9V56z-J-0LGCPK_IQ 
 提取码：digz 
 
+### Download Database [optional]
+
+获取作者手动标注的数据集（未经数据增强）；包含录制的游戏视频及分割成帧的游戏图片，视频分割成帧的`.py`脚本，官方贴图（人物模型），images图片数据集及其对应的labels标注集（使用make-sense导出）
+
+链接：https://pan.baidu.com/s/1o64LCXUk9LR85ipCR9-cSw 
+提取码：7qqa 
+
 ## Usage
 
 Clone项目后，请标记`database`、`game`目录为“排除”，`network`为“运行根”。
